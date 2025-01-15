@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Terengganu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- Add logo image inside the navbar-brand link -->
+            <a class="navbar-brand" href="index.html">
+                <img src="image.png" alt="Logo" style="width: 150px; height: auto; margin-right: 10px;">
+                <i class="bi bi-house-fill"></i> Visit Terengganu
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="destinationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Destinations
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="destinationsDropdown">
+                            <li><a class="dropdown-item" href="Destination.html">Popular Spots</a></li>
+                            <li><a class="dropdown-item" href="Cultural%20Heritage.html">Cultural Heritage</a></li>
+                            <li><a class="dropdown-item" href="Local%20Cuisine.html">Local Cuisine</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="Events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Local%20Stories.html">Local Stories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="traveltips.html">Travel Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Accommodation.html">Accommodation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+                <form class="d-flex ms-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Home/Pulau-Redang-scaled.jpg" class="d-block w-100" alt="Beautiful Beaches">
+                <div class="carousel-caption d-none d-md-block">
+                    <h6>Pristine Beaches</h6>
+                    <p2>Discover Terengganu's breathtaking coastlines.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Home/486570-oregon-coast.avif" class="d-block w-100" alt="Cultural Heritage">
+                <div class="carousel-caption d-none d-md-block">
+                    <h6>Cultural Heritage</h6>
+                    <p2>Immerse yourself in the traditions and crafts of Terengganu.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Home/nelayan.jpg" class="d-block w-100" alt="Natural Wonders">
+                <div class="carousel-caption d-none d-md-block">
+                    <h6>Natural Wonders</h6>
+                    <p2>Explore the lush greenery and serene landscapes of Terengganu.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    
+   <!-- Highlights Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">What Makes Terengganu Special?</h2>
+    <div class="row g-4">
+        <!-- First Feature Card (Pristine Beaches) -->
+        <div class="col-md-4">
+            <div class="card feature-card">
+                <a href="traveltips.html">
+                    <img src="Home/download.jpg" class="card-img-top" alt="Beautiful Beaches">
+                    <div class="card-body">
+                        <h5 class="card-title">Pristine Place</h5>
+                        <p class="card-text">Explore stunning coastlines like Redang and Perhentian Islands.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Second Feature Card (Cultural Heritage) -->
+        <div class="col-md-4">
+            <div class="card feature-card">
+                <a href="Cultural Heritage.html">
+                <img src="Home/download (1).jpg" class="card-img-top" alt="Cultural Heritage">
+                <div class="card-body">
+                    <h5 class="card-title">Cultural Heritage</h5>
+                    <p class="card-text">Dive into Terengganu's rich history and traditional crafts.</p>
+                </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Third Feature Card (Natural Wonders) -->
+        <div class="col-md-4">
+            <div class="card feature-card">
+                <a href="Local Cuisine.html">
+                <img src="Home/image.png" class="card-img-top" alt="Natural Wonders">
+                <div class="card-body">
+                    <h5 class="card-title">Variety of Foods</h5>
+                    <p class="card-text">Discover into Terengganu's delicious dishes to satisfy every appetite.</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-title">Geography</h2>
+                <p>Terengganu boasts some of Malaysia's most beautiful beaches, including Redang Island, Perhentian Islands, and Kapas Island...</p>
+
+                <!-- Interactive Map -->
+                <div class="text-center">
+                    <img src="Home/peta.gif" alt="Terengganu Map" usemap="#terengganuMap" class="img-fluid">
+                </div>
+                <map name="terengganuMap">
+                    <area shape="rect" coords="100,50,200,150" href="https://en.wikipedia.org/wiki/Kuala_Terengganu" alt="Kuala Terengganu" target="_blank" title="Kuala Terengganu">
+                    <area shape="circle" coords="300,200,50" href="https://en.wikipedia.org/wiki/Kemaman" alt="Kemaman" target="_blank" title="Kemaman">
+                    <area shape="poly" coords="400,300,450,350,500,300" href="https://en.wikipedia.org/wiki/Redang_Island" alt="Redang Island" target="_blank" title="Redang Island">
+                </map>
+            </div>
+        </div>
+
+   
+     <!-- Footer -->
+     <footer class="text-center bg-dark text-white py-4 d-flex align-items-center justify-content-center">
+        
+        <img src="logo/photo_2025-01-07_15-22-02.jpg" alt="Beautiful Terengganu Logo" class="footer-logo me-3" />
+        <img src="Home/black-white-terengganu-logo-600nw-2330837069.webp" alt="Beautiful Terengganu Logo" class="footer-logo me-3" />
+        <div>
+            <p1>&copy; 2025 Beautiful Terengganu. All rights reserved.</p>
+            <p1>Contact us: <a href="tel:0196162480" class="text-white">0196162480</a></p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/amazing.terengganu?igsh=MWVqZHIzZnY2OWY2eA==" class="text-white mx-2">Instagram</a>
+                <a href="https://www.facebook.com/share/19u55MbS3f/?mibextid=wwXIfr" class="text-white mx-2">Facebook</a>
+                <a href="https://www.tiktok.com/@amazingterengganu?_t=ZS-8t4fU9itwTw&_r=1" class="text-white mx-2">TikTok</a>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <img src="Home/artworks-000201868722-2jav0a-t500x500.jpg" alt="Flag Logo" class="footer-logo">
+       
+            <img src="logo/photo_2025-01-07_15-21-19.jpg" alt="Tourism Terengganu Logo" class="footer-logo">
+        </div>
+
+        
+    </footer>
+    
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="java.js"></script>
+</body>
+
+</html>

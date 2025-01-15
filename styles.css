@@ -1,0 +1,621 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid #ddd;
+}
+
+.footer-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+
+.social-icons a {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Highlight color on hover */
+}
+
+.footer h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+*/
+
+/* Travel Tips */
+.container {
+    padding: 2rem 1rem;
+}
+p {
+    font-size: 1.0rem;
+    color: #060606;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #080808;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #444;
+}
+
+form .form-check-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+form .form-check-input {
+    margin-right: 0.5rem;
+}
+
+form .btn-primary {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Travel Tips Cards */
+.trip-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.trip-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-duration {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 123, 255, 0.8);
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.trip-location {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Home Section */
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, sans-serif;
+}
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow Styles */
+/* Slideshow Container */
+.slideshow-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+
+/* Slide Image */
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+/* Text within the image (Caption) */
+.text {
+    color: #e70d0d;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Slide Number */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Dot Navigation */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Slide Fade Animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px;
+    }
+}  
+
+/* Background Image Style for the Beautiful Cultural Image Section */
+.beautifulcu-image {
+    background: url('Cultural/viewbot.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* Map Image */
+.map img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Accommodation Section */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.accommodation-card {
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+}
+
+.accommodation-img {
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+.card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.card-content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Destination Section */
+.beautiful-image {
+    background: url('DES/penyu.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.beautiful-image h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.circle-content {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.circle-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.circle-content img:hover {
+    transform: scale(1.1);
+}
+
+.circle-content p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #444;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .beautiful-image {
+        height: 300px;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    .circle-content img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/*locql cuisine*/
+
+.img-uniform {
+    width: 100%; /* Ensures the image fits the container */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures the image scales to fill without distortion */
+    display: block; /* Removes inline gaps */
+    border-radius: 10px; /* Optional: For rounded corners */
+}
+
+.img-uniformp {
+    width: 100%; /* Make the image responsive */
+    max-width: 200px; /* Optional: Set a maximum width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Maintains aspect ratio and crops if needed */
+    border-radius: 10px; /* Optional: For rounded corners */
+}
+
+.text-box {
+    background-color: #ed0b0b; /* Light grey background */
+    border: 2px solid #dbdf1b; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 20px;
+    max-width: 800px; /* Limit the width */
+    margin: 0 auto; /* Center the box */
+    text-align: left; /* Align text to the left */
+}
+
+
+
+/*home*/
+
+
+.img-uniformph {
+    width: 100%; /* Make the image responsive */
+    max-width: 200px; /* Optional: Set a maximum width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Maintains aspect ratio and crops if needed */
+    border-radius: 10px; /* Optional: For rounded corners */
+}
+
+/*cultural*/
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.circle-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.circle-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* culture Section */
+/* Hero Section */
+.beautifulcu-image {
+    background: url('DES/new/photo_2025-01-08_13-32-08 (2).jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.beautifulcu1-image::after {
+    content: '';
+    background: rgba(137, 94, 94, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.beautifulcu1-image h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.btn-main {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    background-color: #052946;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn-main:hover {
+    background-color: #0e4264;
+}
+
+/* Section Styling */
+#cultural-heritage h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #1d5a8c;
+}
+
+.rounded-circle {
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+.rounded-circle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.rounded-circle img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.rounded-circle p {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Row Styling */
+
+
+
+
+
+
+
+/*general background*/
+body {
+    background-image: url(''); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-position: center; /* Centers the background image */
+    color: #ffffff; /* Ensures text is readable on dark backgrounds */
+}
+
+/* Navbar Base Styles */
+.navbar {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #222;
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ccc;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Dropdown Submenu */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: 1px;
+    border-radius: 0;
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/*about new*/
+h7 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #e6c611;
+}
+
+p3 {
+    font-size: 1.50rem;
+    color: #f9f9f9;
+}
+
+
+/*home new*/
+h6 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #eeeeee;
+}
+
+p2 {
+    font-size: 1.50rem;
+    color: #f7db08;
+}
+
+
+        .hero-section {
+            background: url('https://www.beautifulterengganu.com/wp-content/uploads/2018/04/destination1.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .feature-card {
+            transition: transform 0.1s;
+        }
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+        .interactive-map img {
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.1s, box-shadow 0.1s;
+        }
+        .interactive-map img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    
+
+        
